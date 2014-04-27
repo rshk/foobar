@@ -1,0 +1,323 @@
+------------------------------------------------------------
+    Printing information
+------------------------------------------------------------
+Python version:     2.7.6
+PIP version:        1.4.1
+Setuptools version: 1.3.2
+------------------------------------------------------------
+    Installing with pip
+------------------------------------------------------------
+virtualenv ./.venv-with-pip
+New python executable in ./.venv-with-pip/bin/python
+Installing setuptools, pip...done.
+./.venv-with-pip/bin/pip install --allow-external pygpgme --allow-unverified pygpgme .
+Unpacking /tmp/tmp.ubpiI47C9F/foobar
+  Running setup.py (path:/tmp/pip-8OIzRx-build/setup.py) egg_info for package from file:///tmp/tmp.ubpiI47C9F/foobar
+    
+Downloading/unpacking cliff (from Foobar==0.1a)
+  Using download cache from /home/samu/.cache/pip/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fc%2Fcliff%2Fcliff-1.6.1.tar.gz
+  Running setup.py (path:/tmp/tmp.ubpiI47C9F/foobar/.venv-with-pip/build/cliff/setup.py) egg_info for package cliff
+    
+    Installed /tmp/tmp.ubpiI47C9F/foobar/.venv-with-pip/build/cliff/pbr-0.8.0-py2.7.egg
+    [pbr] Excluding argparse: Python 2.6 only dependency
+    [pbr] Processing SOURCES.txt
+    warning: LocalManifestMaker: standard file '-c' not found
+    
+    [pbr] In git context, generating filelist from git
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching '.gitreview'
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no files found matching '*.html' under directory 'docs'
+    warning: no files found matching '*.css' under directory 'docs'
+    warning: no files found matching '*.js' under directory 'docs'
+    warning: no files found matching '*.png' under directory 'docs'
+    warning: no files found matching '*.py' under directory 'tests'
+Downloading/unpacking pygpgme==0.3.1 (from Foobar==0.1a)
+  Could not find a version that satisfies the requirement pygpgme==0.3.1 (from Foobar==0.1a) (from versions: 0.1, 0.2, 0.3, 0.3, 0.3, 0.2, 0.1)
+Cleaning up...
+No distributions matching the version for pygpgme==0.3.1 (from Foobar==0.1a)
+Storing debug log for failure in /home/samu/.pip/pip.log
+make: [install_with_pip] Error 1 (ignored)
+------------------------------------------------------------
+    Installing with pip -e
+------------------------------------------------------------
+virtualenv ./.venv-with-pip-editable
+New python executable in ./.venv-with-pip-editable/bin/python
+Installing setuptools, pip...done.
+./.venv-with-pip-editable/bin/pip install --allow-external pygpgme --allow-unverified pygpgme .
+Unpacking /tmp/tmp.ubpiI47C9F/foobar
+  Running setup.py (path:/tmp/pip-lnt_9y-build/setup.py) egg_info for package from file:///tmp/tmp.ubpiI47C9F/foobar
+    
+Downloading/unpacking cliff (from Foobar==0.1a)
+  Using download cache from /home/samu/.cache/pip/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fc%2Fcliff%2Fcliff-1.6.1.tar.gz
+  Running setup.py (path:/tmp/tmp.ubpiI47C9F/foobar/.venv-with-pip-editable/build/cliff/setup.py) egg_info for package cliff
+    
+    Installed /tmp/tmp.ubpiI47C9F/foobar/.venv-with-pip-editable/build/cliff/pbr-0.8.0-py2.7.egg
+    [pbr] Excluding argparse: Python 2.6 only dependency
+    [pbr] Processing SOURCES.txt
+    warning: LocalManifestMaker: standard file '-c' not found
+    
+    [pbr] In git context, generating filelist from git
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching '.gitreview'
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no files found matching '*.html' under directory 'docs'
+    warning: no files found matching '*.css' under directory 'docs'
+    warning: no files found matching '*.js' under directory 'docs'
+    warning: no files found matching '*.png' under directory 'docs'
+    warning: no files found matching '*.py' under directory 'tests'
+Downloading/unpacking pygpgme==0.3.1 (from Foobar==0.1a)
+  Could not find a version that satisfies the requirement pygpgme==0.3.1 (from Foobar==0.1a) (from versions: 0.1, 0.2, 0.3, 0.3, 0.3, 0.2, 0.1)
+Cleaning up...
+No distributions matching the version for pygpgme==0.3.1 (from Foobar==0.1a)
+Storing debug log for failure in /home/samu/.pip/pip.log
+make: [install_with_pip_editable] Error 1 (ignored)
+------------------------------------------------------------
+    Installing with setup.py install
+------------------------------------------------------------
+virtualenv ./.venv-setuppy-editable
+New python executable in ./.venv-setuppy-editable/bin/python
+Installing setuptools, pip...done.
+./.venv-setuppy-editable/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+creating Foobar.egg-info
+writing dependency_links to Foobar.egg-info/dependency_links.txt
+writing requirements to Foobar.egg-info/requires.txt
+writing Foobar.egg-info/PKG-INFO
+writing top-level names to Foobar.egg-info/top_level.txt
+writing manifest file 'Foobar.egg-info/SOURCES.txt'
+reading manifest file 'Foobar.egg-info/SOURCES.txt'
+writing manifest file 'Foobar.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/foobar
+copying foobar/__init__.py -> build/lib.linux-x86_64-2.7/foobar
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/foobar
+copying build/lib.linux-x86_64-2.7/foobar/__init__.py -> build/bdist.linux-x86_64/egg/foobar
+byte-compiling build/bdist.linux-x86_64/egg/foobar/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying Foobar.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Foobar.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Foobar.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Foobar.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Foobar.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Foobar.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/Foobar-0.1a-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing Foobar-0.1a-py2.7.egg
+creating /tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/lib/python2.7/site-packages/Foobar-0.1a-py2.7.egg
+Extracting Foobar-0.1a-py2.7.egg to /tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/lib/python2.7/site-packages
+Adding Foobar 0.1a to easy-install.pth file
+
+Installed /tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/lib/python2.7/site-packages/Foobar-0.1a-py2.7.egg
+Processing dependencies for Foobar==0.1a
+Searching for pygpgme==0.3.1
+Best match: pygpgme 0.3.1
+Downloading https://github.com/rshk/pygpgme/tarball/master#egg=pygpgme-0.3.1
+Processing master
+Writing /tmp/easy_install-m6meeH/rshk-pygpgme-3b075e2/setup.cfg
+Running rshk-pygpgme-3b075e2/setup.py -q bdist_egg --dist-dir /tmp/easy_install-m6meeH/rshk-pygpgme-3b075e2/egg-dist-tmp-CjnYQV
+zip_safe flag not set; analyzing archive contents...
+Adding pygpgme 0.3.1 to easy-install.pth file
+
+Installed /tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/lib/python2.7/site-packages/pygpgme-0.3.1-py2.7-linux-x86_64.egg
+Searching for cliff
+Reading https://pypi.python.org/simple/cliff/
+Best match: cliff 1.6.1
+Downloading https://pypi.python.org/packages/source/c/cliff/cliff-1.6.1.tar.gz#md5=dc9dc370a37f14b154b49aab4cad9819
+Processing cliff-1.6.1.tar.gz
+Writing /tmp/easy_install-SSOuyO/cliff-1.6.1/setup.cfg
+Running cliff-1.6.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-SSOuyO/cliff-1.6.1/egg-dist-tmp-8VwTGe
+Searching for pbr
+Reading https://pypi.python.org/simple/pbr/
+Best match: pbr 0.8.0
+Downloading https://pypi.python.org/packages/source/p/pbr/pbr-0.8.0.tar.gz#md5=7d85dc6aa47809d97d29901bf0244f6f
+Processing pbr-0.8.0.tar.gz
+Writing /tmp/easy_install-SSOuyO/cliff-1.6.1/temp/easy_install-f_MQS3/pbr-0.8.0/setup.cfg
+Running pbr-0.8.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-SSOuyO/cliff-1.6.1/temp/easy_install-f_MQS3/pbr-0.8.0/egg-dist-tmp-EX46M1
+
+Installed /tmp/easy_install-SSOuyO/cliff-1.6.1/pbr-0.8.0-py2.7.egg
+[pbr] Excluding argparse: Python 2.6 only dependency
+Adding cliff 1.6.1 to easy-install.pth file
+
+Installed /tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/lib/python2.7/site-packages/cliff-1.6.1-py2.7.egg
+Searching for stevedore>=0.12
+Reading https://pypi.python.org/simple/stevedore/
+Best match: stevedore 0.15
+Downloading https://pypi.python.org/packages/source/s/stevedore/stevedore-0.15.tar.gz#md5=437ee0a0168c78433b2b8faec0ae482d
+Processing stevedore-0.15.tar.gz
+Writing /tmp/easy_install-9FI9Te/stevedore-0.15/setup.cfg
+Running stevedore-0.15/setup.py -q bdist_egg --dist-dir /tmp/easy_install-9FI9Te/stevedore-0.15/egg-dist-tmp-E6hEGg
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'setup_requires'
+  warnings.warn(msg)
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'pbr'
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "setup.py", line 19, in <module>
+    zip_safe=False)
+  File "/usr/lib/python2.7/distutils/core.py", line 151, in setup
+    dist.run_commands()
+  File "/usr/lib/python2.7/distutils/dist.py", line 953, in run_commands
+    self.run_command(cmd)
+  File "/usr/lib/python2.7/distutils/dist.py", line 972, in run_command
+    cmd_obj.run()
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/install.py", line 74, in run
+    self.do_egg_install()
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/install.py", line 97, in do_egg_install
+    cmd.run()
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 358, in run
+    self.easy_install(spec, not self.no_deps)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 574, in easy_install
+    return self.install_item(None, spec, tmpdir, deps, True)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 625, in install_item
+    self.process_distribution(spec, dist, deps)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 671, in process_distribution
+    [requirement], self.local_index, self.easy_install
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/pkg_resources.py", line 580, in resolve
+    dist = best[req.key] = env.best_match(req, ws, installer)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/pkg_resources.py", line 818, in best_match
+    return self.obtain(req, installer) # try and download/install
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/pkg_resources.py", line 830, in obtain
+    return installer(requirement)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 593, in easy_install
+    return self.install_item(spec, dist.location, tmpdir, deps)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 623, in install_item
+    dists = self.install_eggs(spec, download, tmpdir)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 809, in install_eggs
+    return self.build_and_install(setup_script, setup_base)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 1015, in build_and_install
+    self.run_setup(setup_script, setup_base, args)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 1000, in run_setup
+    run_setup(setup_script, args)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/sandbox.py", line 50, in run_setup
+    lambda: execfile(
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/sandbox.py", line 100, in run
+    return func()
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/sandbox.py", line 52, in <lambda>
+    {'__file__':setup_script, '__name__':'__main__'}
+  File "setup.py", line 14, in <module>
+    name='Foobar',
+  File "/usr/lib/python2.7/distutils/core.py", line 151, in setup
+    dist.run_commands()
+  File "/usr/lib/python2.7/distutils/dist.py", line 953, in run_commands
+    self.run_command(cmd)
+  File "/usr/lib/python2.7/distutils/dist.py", line 970, in run_command
+    cmd_obj = self.get_command_obj(command)
+  File "/usr/lib/python2.7/distutils/dist.py", line 846, in get_command_obj
+    cmd_obj = self.command_obj[command] = klass(self)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/__init__.py", line 69, in __init__
+    _Command.__init__(self,dist)
+  File "/usr/lib/python2.7/distutils/cmd.py", line 59, in __init__
+    raise TypeError, "dist must be a Distribution instance"
+TypeError: dist must be a Distribution instance
+make: [install_setuppy] Error 1 (ignored)
+------------------------------------------------------------
+    Installing with setup.py develop
+------------------------------------------------------------
+virtualenv ./.venv-setuppy-editable
+New python executable in ./.venv-setuppy-editable/bin/python
+Installing setuptools, pip...done.
+./.venv-setuppy-editable/bin/python setup.py develop
+running develop
+running egg_info
+writing dependency_links to Foobar.egg-info/dependency_links.txt
+writing requirements to Foobar.egg-info/requires.txt
+writing Foobar.egg-info/PKG-INFO
+writing top-level names to Foobar.egg-info/top_level.txt
+reading manifest file 'Foobar.egg-info/SOURCES.txt'
+writing manifest file 'Foobar.egg-info/SOURCES.txt'
+running build_ext
+Creating /tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/lib/python2.7/site-packages/Foobar.egg-link (link to .)
+Removing Foobar 0.1a from easy-install.pth file
+Adding Foobar 0.1a to easy-install.pth file
+
+Installed /tmp/tmp.ubpiI47C9F/foobar
+Processing dependencies for Foobar==0.1a
+Searching for stevedore>=0.12
+Reading https://pypi.python.org/simple/stevedore/
+Best match: stevedore 0.15
+Downloading https://pypi.python.org/packages/source/s/stevedore/stevedore-0.15.tar.gz#md5=437ee0a0168c78433b2b8faec0ae482d
+Processing stevedore-0.15.tar.gz
+Writing /tmp/easy_install-oTZzP4/stevedore-0.15/setup.cfg
+Running stevedore-0.15/setup.py -q bdist_egg --dist-dir /tmp/easy_install-oTZzP4/stevedore-0.15/egg-dist-tmp-V1gIJQ
+Searching for pbr>=0.5.21,<1.0
+Reading https://pypi.python.org/simple/pbr/
+Best match: pbr 0.8.0
+Downloading https://pypi.python.org/packages/source/p/pbr/pbr-0.8.0.tar.gz#md5=7d85dc6aa47809d97d29901bf0244f6f
+Processing pbr-0.8.0.tar.gz
+Writing /tmp/easy_install-oTZzP4/stevedore-0.15/temp/easy_install-yGtej5/pbr-0.8.0/setup.cfg
+Running pbr-0.8.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-oTZzP4/stevedore-0.15/temp/easy_install-yGtej5/pbr-0.8.0/egg-dist-tmp-ZECW70
+
+Installed /tmp/easy_install-oTZzP4/stevedore-0.15/pbr-0.8.0-py2.7.egg
+[pbr] Excluding argparse: Python 2.6 only dependency
+Adding stevedore 0.15 to easy-install.pth file
+
+Installed /tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/lib/python2.7/site-packages/stevedore-0.15-py2.7.egg
+Searching for six>=1.4.1
+Reading https://pypi.python.org/simple/six/
+Best match: six 1.6.1
+Downloading https://pypi.python.org/packages/source/s/six/six-1.6.1.tar.gz#md5=07d606ac08595d795bf926cc9985674f
+Processing six-1.6.1.tar.gz
+Writing /tmp/easy_install-4eZYOZ/six-1.6.1/setup.cfg
+Running six-1.6.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-4eZYOZ/six-1.6.1/egg-dist-tmp-p7kpif
+Traceback (most recent call last):
+  File "setup.py", line 19, in <module>
+    zip_safe=False)
+  File "/usr/lib/python2.7/distutils/core.py", line 151, in setup
+    dist.run_commands()
+  File "/usr/lib/python2.7/distutils/dist.py", line 953, in run_commands
+    self.run_command(cmd)
+  File "/usr/lib/python2.7/distutils/dist.py", line 972, in run_command
+    cmd_obj.run()
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/develop.py", line 27, in run
+    self.install_for_development()
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/develop.py", line 129, in install_for_development
+    self.process_distribution(None, self.dist, not self.no_deps)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 671, in process_distribution
+    [requirement], self.local_index, self.easy_install
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/pkg_resources.py", line 580, in resolve
+    dist = best[req.key] = env.best_match(req, ws, installer)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/pkg_resources.py", line 818, in best_match
+    return self.obtain(req, installer) # try and download/install
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/pkg_resources.py", line 830, in obtain
+    return installer(requirement)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 593, in easy_install
+    return self.install_item(spec, dist.location, tmpdir, deps)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 623, in install_item
+    dists = self.install_eggs(spec, download, tmpdir)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 809, in install_eggs
+    return self.build_and_install(setup_script, setup_base)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 1015, in build_and_install
+    self.run_setup(setup_script, setup_base, args)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/command/easy_install.py", line 1000, in run_setup
+    run_setup(setup_script, args)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/sandbox.py", line 50, in run_setup
+    lambda: execfile(
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/sandbox.py", line 100, in run
+    return func()
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/sandbox.py", line 52, in <lambda>
+    {'__file__':setup_script, '__name__':'__main__'}
+  File "setup.py", line 31, in <module>
+    
+  File "/usr/lib/python2.7/distutils/core.py", line 151, in setup
+    dist.run_commands()
+  File "/usr/lib/python2.7/distutils/dist.py", line 953, in run_commands
+    self.run_command(cmd)
+  File "/usr/lib/python2.7/distutils/dist.py", line 970, in run_command
+    cmd_obj = self.get_command_obj(command)
+  File "/usr/lib/python2.7/distutils/dist.py", line 846, in get_command_obj
+    cmd_obj = self.command_obj[command] = klass(self)
+  File "/tmp/tmp.ubpiI47C9F/foobar/.venv-setuppy-editable/local/lib/python2.7/site-packages/setuptools/__init__.py", line 69, in __init__
+    _Command.__init__(self,dist)
+  File "/usr/lib/python2.7/distutils/cmd.py", line 59, in __init__
+    raise TypeError, "dist must be a Distribution instance"
+TypeError: dist must be a Distribution instance
+make: [install_setuppy_editable] Error 1 (ignored)
